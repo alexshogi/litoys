@@ -9,6 +9,9 @@ body {
 }
 
 .content-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around
@@ -16,5 +19,8 @@ body {
 
 img {
   min-width: 400px;
+  width: 400px;
+  min-height: 400px;
+  height: 400px;
   margin: 15px 0;
 }
